@@ -1,0 +1,15 @@
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\bin\Debug\net8.0\KR_LOGIN_I_S.exe
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\bin\Debug\net8.0\KR_LOGIN_I_S.deps.json
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\bin\Debug\net8.0\KR_LOGIN_I_S.runtimeconfig.json
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\bin\Debug\net8.0\KR_LOGIN_I_S.dll
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\bin\Debug\net8.0\KR_LOGIN_I_S.pdb
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.csproj.AssemblyReference.cache
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.AssemblyInfoInputs.cache
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.AssemblyInfo.cs
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.csproj.CoreCompileInputs.cache
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.dll
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\refint\KR_LOGIN_I_S.dll
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.pdb
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\KR_LOGIN_I_S.genruntimeconfig.cache
+C:\Users\Ivanlogin888\Desktop\GEEKBRAINS\C#\КР Логин\KR-1st-Lesson\KR_LOGIN_I_S\obj\Debug\net8.0\ref\KR_LOGIN_I_S.dll
