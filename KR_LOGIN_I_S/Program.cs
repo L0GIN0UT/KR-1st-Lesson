@@ -17,84 +17,84 @@
 
 // 1-й способ Более быстродейственный
 
-// Очистка консоли
-Console.Clear();
+// // Очистка консоли
+// Console.Clear();
 
-Console.WriteLine("Введите слова/числа/символы с клавиатуры через запятую: ");
+// Console.WriteLine("Введите слова/числа/символы с клавиатуры через запятую: ");
 
-// Создаем стринг для записи того что ввел пользователь
-string data = Console.ReadLine();
+// // Создаем стринг для записи того что ввел пользователь
+// string data = Console.ReadLine();
 
-// Разделение слов/чисел/символов с помощбю (,)
-string[] separationData = data.Split(',');
+// // Разделение слов/чисел/символов с помощбю (,)
+// string[] separationData = data.Split(',');
 
-// Проверка на размерность данных
-string[] finalArray(string[] arr)
-{
-    string[] result = {};
-    foreach (var word in arr)
-    {
-        if (word.Length <= 3)
-        {
-            result = result.Append(word).ToArray(); 
-        }
-    }
-    return result;
-}
+// // Проверка на размерность данных
+// string[] finalArray(string[] arr)
+// {
+//     string[] result = {};
+//     foreach (var word in arr)
+//     {
+//         if (word.Length <= 3)
+//         {
+//             result = result.Append(word).ToArray(); 
+//         }
+//     }
+//     return result;
+// }
 
-string[] arrayForTest = finalArray(separationData);
+// string[] arrayForTest = finalArray(separationData);
 
-int i = 0;
+// int i = 0;
 
-// Вывод данных
-foreach (var word in arrayForTest)
-    {
-        Console.WriteLine($"{i+1}-й элемент массива: {word}");
-        i++;
-    }
+// // Вывод данных
+// foreach (var word in arrayForTest)
+//     {
+//         Console.WriteLine($"{i+1}-й элемент массива: {word}");
+//         i++;
+//     }
 
 // // 2 вариант решение ( не через запятую а с помощью отдельных массивов)
 
-// // Очистка консоли
-// Console.Clear();
-// // Создаем массив стрингов для записи подходящих значений
-// string[] result = {};
+// Очистка консоли
+Console.Clear();
+// Создаем массив стрингов для записи подходящих значений
+string[] result = {};
 
-// // Предупреждаем пользователя о том как вводить данные
-// Console.ForegroundColor = ConsoleColor.Yellow;
-// Console.WriteLine($"WARNING: вводите числа/слова/комбинацию символы используя (ENTER/ВВОД), \nЕсли вы ничего не введете и нажмете (ENTER/ВВОД) то процесс записи чисел закончится \nИспользуйте ЛАТИНИЦУ что бы все работало корректно !");
-// Console.ResetColor();
+// Предупреждаем пользователя о том как вводить данные
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine($"WARNING: вводите числа/слова/комбинацию символы используя (ENTER/ВВОД), \nЕсли вы ничего не введете и нажмете (ENTER/ВВОД) то процесс записи чисел закончится \nИспользуйте ЛАТИНИЦУ что бы все работало корректно !");
+Console.ResetColor();
 
-// // Создаем стринг для записи того что ввел пользователь
-// Console.WriteLine($"Введите 1 число/слово/комбинацию: ");
+// Создаем стринг для записи того что ввел пользователь
+Console.WriteLine($"Введите 1 число/слово/комбинацию: ");
 
-// string newData1 = Console.ReadLine();
+string newData1 = Console.ReadLine();
 
-// // Создаем переменную для увеличения порядка
-// int i = 1;
+// Создаем переменную для увеличения порядка
+int i = 1;
 
-// // Цикл для предоставления возможности пользователю вводить столько данных сколько он захочет
-// // При этом цикл проверяет размер введеных данных и сохраняет только те у которых размерность <= 3
-// while (newData1 != "")
-// {
-//     if (newData1.Length <= 3)
-//     {
-//         result = result.Append(newData1).ToArray();;
-//     }
+// Цикл для предоставления возможности пользователю вводить столько данных сколько он захочет
+// При этом цикл проверяет размер введеных данных и сохраняет только те у которых размерность <= 3
+while (newData1 != "")
+{
+    if (newData1.Length <= 3)
+    {
+        result = result.Append(newData1).ToArray();;
+    }
 
-//     i++;
-//     Console.WriteLine($"Введите {i} число/слово/комбинацию: ");
-//     newData1 = Console.ReadLine();
-// }
+    i++;
+    Console.WriteLine($"Введите {i} число/слово/комбинацию: ");
+    newData1 = Console.ReadLine();
+}
 
-// Console.WriteLine("Вы ввели пустое число.Процесс записи закончился!");
+Console.WriteLine("Вы ввели пустое число.Процесс записи закончился!");
 
-// // Вывод значений
-// Console.ForegroundColor = ConsoleColor.Green;
-// Console.Write("Ответ: ");
-// for (int j = 0; j < result.Length; j++)
-// {
-//     Console.Write(result[j].ToString());
-//     Console.Write(" ");
-// }
-// Console.ResetColor();
+// Вывод значений
+Console.ForegroundColor = ConsoleColor.Green;
+Console.Write("Ответ: ");
+for (int j = 0; j < result.Length; j++)
+{
+    Console.Write(result[j].ToString());
+    Console.Write(" ");
+}
+Console.ResetColor();
